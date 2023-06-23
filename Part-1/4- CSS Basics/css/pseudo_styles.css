@@ -1,0 +1,53 @@
+/* article :first-child{
+    font-size: 150%;
+    font-style: italic;
+} */
+
+article :first-of-type{
+    font-size: 120%;
+    font-style: italic;
+    color: aqua;
+}
+article p:last-of-type{
+    font-size: 120%;
+    font-style: bold;
+    color: red;
+}
+
+ul li:nth-child(odd){
+    color: brown;
+}
+
+a:visited{
+    color: red;
+}
+a:hover, a:focus{
+    color: green;
+    font-size: 110%;
+}
+
+li:hover{
+    color: green;
+    font-size: 110%;
+}
+
+/* .first-letter{
+    font-size: 130%;
+    color: red;
+} */
+p::first-letter{
+    font-size: 130%;
+    color: gray;
+    font-weight: bold;
+}
+p::first-line{
+    color: gray;
+    font-weight: bold;
+}
+::selection{
+    background-color: pink;
+}
+p::before{
+    content: "...";
+    display: block;
+}

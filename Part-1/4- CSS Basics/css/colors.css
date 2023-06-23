@@ -1,0 +1,74 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(100, 50, 13);
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(100, 51, 13, 0.692);
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: #ff0000;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: hsl(335, 87%, 41%);
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: hsla(241, 87%, 41%, 0.212);
+}
+/* --------------------------------------------------------- */
+.box-grad{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(dodgerblue, yellow);
+}
+.box-grad{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to right, dodgerblue, yellow);
+}
+.box-grad{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to bottom right, dodgerblue, yellow);
+}
+.box-grad{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(20deg, dodgerblue, yellow);
+}
+.box-grad{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(20deg, dodgerblue, yellow 80%);
+}
+.box-grad{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(45deg, dodgerblue, yellow, tomato);
+}
+.box-rad{
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(dodgerblue, tomato);
+    border-radius: 100px;
+}
+.box-rad{
+    width: 400px;
+    height: 200px;
+    background: radial-gradient(circle, dodgerblue, tomato);
+    border-radius: 100px;
+}
+.box-rad{
+    width: 400px;
+    height: 200px;
+    background: radial-gradient(circle at top left, dodgerblue, tomato);
+    border-radius: 100px;
+}

@@ -1,0 +1,51 @@
+
+/* 1. variant */
+/* .boxes{
+  border: 3px solid lightgray;
+}
+
+.box{
+  width: 5rem;
+  height: 5rem;
+}
+
+.box-one{
+  background-color: gold;
+}
+.box-two{
+  background-color: tomato;
+  position: relative;
+  left: 1rem;
+  top: -4rem;
+  z-index: -1;
+}
+.box-three{
+  background-color: dodgerblue;
+} */
+
+
+/* 2. variant */
+.boxes{
+  border: 3px solid lightgray;
+  position: relative;
+}
+
+.box{
+  width: 5rem;
+  height: 5rem;
+}
+
+.box-one{
+  background-color: gold;
+}
+.box-two{
+  background-color: tomato;
+  position: absolute;
+  left: 2rem;
+  right: 2rem;
+  z-index: 1;
+  width: auto;
+}
+.box-three{
+  background-color: dodgerblue;
+}

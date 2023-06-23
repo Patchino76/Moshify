@@ -1,0 +1,49 @@
+html{
+    /* 62% * 16px (default size) = 10px */
+    font-size: 62.5%;
+}
+
+/* absolute values */
+.box{
+
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    border-top: 3px solid orange;
+}
+/* relative */
+body{
+    margin: 10px;
+    /* width: 300px; */
+}
+.box{
+
+    width: 50%;
+    height: 100%;
+    background-color: gold;
+    border-top: 3px solid orange;
+}
+/* viewport */
+.box{
+
+    width: 100vw;
+    height: 100vh;
+    background-color: gold;
+    border-top: 3px solid orange;
+}
+/* relative to font size */
+.box{
+
+    width: 20em; /* 10 em = 10*font size */
+    height: 100vh;
+    background-color: gold;
+    border-top: 3px solid orange;
+}
+/* relative to the root element */
+.box{
+
+    width: 10rem; /* 10*10 */
+    height: 100vh;
+    background-color: gold;
+    border-top: 3px solid orange;
+}

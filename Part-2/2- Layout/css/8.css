@@ -1,0 +1,22 @@
+body{
+  margin: 10;
+}
+
+.container{
+  border: 3px solid lightblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.box{
+  flex-basis: 6rem;
+  width: 5rem;
+  height: 4rem;
+  background: gold;
+  margin: 1rem;
+}

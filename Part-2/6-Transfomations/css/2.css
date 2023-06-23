@@ -1,0 +1,31 @@
+body{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.box{
+  width: 100px;
+  height: 100px;
+  background-color: gold;
+  overflow: auto;
+}
+
+/* .box:hover{
+  transform: rotate(5deg);
+}
+.box:hover{
+  transform: scale(1.2);
+}
+.box:hover{
+  transform: skew(15deg)
+}
+.box:hover{
+  transform: translate(10px, 10px)
+} */
+
+.box:hover{
+  transform:  rotate(15deg)  scale(1.2);
+}

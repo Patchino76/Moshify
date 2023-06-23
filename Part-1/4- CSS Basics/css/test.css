@@ -1,0 +1,10 @@
+.grid {
+    display: grid;
+    background-color: antiquewhite;
+    grid-template-columns: 48px auto;
+    transition: 300ms; /* Change as needed */
+  }
+
+  .grid:has(.left:hover) {
+    grid-template-columns: 30% auto;
+  }

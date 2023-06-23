@@ -1,0 +1,16 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    border: 2px solid orange;
+    padding: 1px;
+    margin: 1px;
+    display: inline-block ;
+}
+.box::before{
+    content: "Hellp";
+}

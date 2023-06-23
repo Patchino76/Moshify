@@ -1,0 +1,22 @@
+body{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.box{
+  width: 100px;
+  height: 100px;
+  background-color: gold;
+  overflow: auto;
+  transition: transform 0.8s, background 0.8s ease-out;
+}
+
+
+.box:hover{
+  transform:  rotate(45deg);
+  background: dodgerblue;
+}
+

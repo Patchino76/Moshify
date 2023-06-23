@@ -1,0 +1,16 @@
+body{
+    background: url("https://img.freepik.com/free-vector/winter-blue-pink-gradient-background-vector_53876-117276.jpg");
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    background-size: cover;
+    height: 100vh;
+}
+
+body{
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/GoldenGateBridge-001.jpg/800px-GoldenGateBridge-001.jpg");
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300vh;
+}
