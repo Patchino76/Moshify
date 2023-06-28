@@ -215,6 +215,11 @@ a{
   background-color: #FD4515
 }
 
+.btn--stretched{
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
 .btn--block{
   width: 100%;
   display: inline-block;
@@ -457,3 +462,46 @@ a{
     margin-left: 6rem;
   }
 } 
+
+
+/* Callouts */
+
+.callout{
+  padding: 4rem;
+  border-radius: 5px;
+}
+
+.callout--primary{
+  background: var(--color-primary);
+  color: white;
+}
+
+.callout--heading{
+  color: white;
+  margin-top: 0;
+  font-size: 3rem;
+}
+
+.callout .btn{
+  align-self: center;
+  justify-self: center;
+}
+
+.callout__content{
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .callout__content{
+    text-align: left;
+  }
+
+  .callout .btn{
+    justify-self: start;
+    margin: 0 2rem;
+  }
+
+  .callout .grid--1x2{
+    grid-template-columns: 2fr auto;
+  }
+}
