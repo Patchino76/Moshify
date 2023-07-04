@@ -17,56 +17,66 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <section class="block"></section>
-    <header class="block__header">
-      <h2>Какво казват клиените за нас</h2>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam
-        cupiditate ut culpa ab omnis beatae eos deserunt nam obcaecati amet?
-      </p>
-    </header>
-    <div class="container">
-      <div class="card testimonial" style="margin: 5rem;">
-        <div class="grid grid--1x2">
-      
-          <div class="testimonial__image" >
-            <img  class="testimonial__image" src="images/testimonial.jpg" alt="happy customer">
-      
-            <span class="icon-container icon-container--accent">
-              <svg class="icon icon--small  icon--white">
-                <use xlink:href="images/sprite.svg#quotes"></use>
-              </svg>
-            </span>
-          </div>
-      
-          <blockquote class="quote">
-            <p class="quote__text">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum ipsa
-              blanditiis quidem. Adipisci reprehenderit omnis, similique magni nemo ipsa
-              corporis <q>HTML is easy to learn.</q> sit magnam accusantium, fugit
-              aliquid?
-            </p>
-            <footer>
-              <div class="media">
-                <div class="media__image">
-                  <svg class="icon icon--primary">
-                    <use xlink:href="images/sprite.svg#line"></use>
-                  </svg>
-                </div>
-                <div class="media__body">
-                  <h3 class="media__title quote__author">Светослав Любенов</h3>
-                  <p class="quote__company">
-                    Управител на <q>АТЕЛ Системи за управление</q> ЕООД
-                  </p>
-                </div>
-              </div>
-            </footer>
-          </blockquote>
-          
-          </div>
+ 
+    <footer class="block block--dark footer">
+      <div class="container grid footer__sections">
+      <section class="collapsible footer__section">
+        <header class="collapsible__header">
+          <h3 class="collapsible__heading footer_heading">ПРОДУКТИ</h3>
+
+          <svg class="icon icon--chevron collapsible__chevron">
+            <use xlink:href="images/sprite.svg#chevron"></use>
+          </svg>
+        </header>
+        <div class="collapsible__content">
+          <ul class="list">
+            <li><a href="#">Анализ времеви серии</a></li>
+            <li><a href="#">Анализ изображениея</a></li>
+            <li><a href="#">Улавяне на аномалии</a></li>
+            <li><a href="#">Статистики</a></li>
+          </ul>
         </div>
-      </div>
+      </section>
+      <section class="collapsible footer__section">
+        <header class="collapsible__header">
+          <h3 class="collapsible__heading footer_heading">Решения</h3>
+
+          <svg class="icon icon--chevron collapsible__chevron">
+            <use xlink:href="images/sprite.svg#chevron"></use>
+          </svg>
+        </header>
+        <div class="collapsible__content">
+          <ul class="list">
+            <li><a href="#">Анализ времеви серии</a></li>
+            <li><a href="#">Анализ изображениея</a></li>
+            <li><a href="#">Улавяне на аномалии</a></li>
+            <li><a href="#">Статистики</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="collapsible footer__section">
+        <header class="collapsible__header">
+          <h3 class="collapsible__heading footer_heading">За компанията</h3>
+
+          <svg class="icon icon--chevron collapsible__chevron">
+            <use xlink:href="images/sprite.svg#chevron"></use>
+          </svg>
+        </header>
+        <div class="collapsible__content">
+          <ul class="list">
+            <li><a href="#">Анализ времеви серии</a></li>
+            <li><a href="#">Анализ изображениея</a></li>
+            <li><a href="#">Улавяне на аномалии</a></li>
+            <li><a href="#">Статистики</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="footer__brand">
+        <img src="images/logo.svg" alt="" />
+        <p class="footer__copyright">Sve Lyu Copywrigfht 2023</p>
+      </section>
     </div>
+    </footer> 
     <script src="js/main.js"></script>
   </body>
 </html>
