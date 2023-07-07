@@ -196,7 +196,7 @@ F.icon--small{
   cursor: pointer;
   font-size: 1.8rem;
   font-weight: 600;
-  padding: 2rem 3rem;
+  padding: 2rem 4vw;
   margin: 1rem 0;
   text-transform: uppercase;
   white-space: nowrap;
@@ -285,6 +285,7 @@ F.icon--small{
   flex-grow: 1;
   border: 0;
   padding: 1.5rem 2rem;
+  width: 0
 }
 
 .input-group .btn{
@@ -727,6 +728,7 @@ F.icon--small{
 
 .block-domain__prices li{
   padding: 1rem;
+  color: var(--color-headings);
 }
 
 @media screen and (min-width: 768px) {
